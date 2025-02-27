@@ -173,13 +173,13 @@ padding-right: 30PX;
 }
 
 .html{
-    background: conic-gradient(#e34f26 75%, white  80%);
+    background: conic-gradient(#e34f26 70%, white  75%);
 }
 .css{
-    background: conic-gradient(#e34f26 50%, white  60%);
+    background: conic-gradient(#e34f26 45%, white 50%);
 }
 .js{
-    background: conic-gradient(#e34f26 25%, white  30%);
+    background: conic-gradient(#e34f26 20%, white  25%);
 }
 .value{
     display: flex;
