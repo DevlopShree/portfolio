@@ -7,9 +7,10 @@
     <title>Shree's Portfolio</title>
 
     <!-- google-font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
 
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -21,7 +22,7 @@
             <a class="logo" href="#" style="color: #3f396d">Portfolio</a>
 
             <!-- nav -->
-            <div class="navigation">
+            <!-- <div class="navigation"> -->
                 <ul class="nav-list" type="none">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
@@ -30,10 +31,10 @@
                         <a class="nav-link" href="#about-me">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#project">Projects</a>
                     </li>
                 </ul>
-            </div>
+            <!-- </div> -->
             <button class="con-btn">Contact</button>
         </div>
     </nav>
@@ -49,9 +50,10 @@
                     <span style="color: orange">Shree Kant</span>
                 </h2>
                 <p class="info">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                    unde vel nemo cum necessitatibus voluptate, natus voluptatibus
-                    harum, pariatur optio dicta et earum esse.
+                    <p class="info">
+                        A passionate full-stack developer with a keen interest in web development,and software solutions. I specialize in creating responsive and user-friendly websites and applications. Always eager to learn and innovate, I strive to bring creative ideas to life through technology.
+                    </p>
+                    
                 </p>
                 <button class="hire-me">Hire Me</button>
             </div>
@@ -72,26 +74,20 @@
                     <div class="html progress">
                         <div class="value">75%</div>
                     </div>
-                    <div class="skill-name">
-                        HTML
-                    </div>
+                    <div class="skill-name">HTML</div>
                 </div>
 
                 <div class="skill">
                     <div class="css progress">
                         <div class="value">50%</div>
                     </div>
-                    <div class="skill-name">
-                        CSS
-                    </div>
+                    <div class="skill-name">CSS</div>
                 </div>
                 <div class="skill">
                     <div class="js progress">
                         <div class="value">25%</div>
                     </div>
-                    <div class="skill-name">
-                        Java Script
-                    </div>
+                    <div class="skill-name">Java Script</div>
                 </div>
             </div>
         </div>
@@ -106,29 +102,32 @@
                 <h3>Check My Projects</h3>
             </div>
             <div class="project-box">
-                <div class="proj">
-                    <div class="project-1">
-                        <a href="https://devlopshree.github.io/image-video-converter/">
-                            <img src="media/Capture.webp" alt="pic-formate Image Formate Converter">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p>Img-Formate Converter</p>
-                    </div>
+                <div class="proj p1">
+                    <a href="https://devlopshree.github.io/image-video-converter/">
+                        
+                        <div class="project-img" title="Live">
+                            <img src="media/Capture.webp" alt="pic-formate Image Formate Converter" />
+                        </div>
+                        <div class="project-info">
+                            <p>Img-Formate Converter</p>
+                        </div>
+
+                    </a>    
                 </div>
 
-                <div class="proj">
-                    <div class="project-1">
-                        <a href="https://devlopshree.github.io/image-video-converter/">
-                            <img src="media/Capture.webp" alt="pic-formate Image Formate Converter">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p>Img-Formate Converter</p>
-                    </div>
+                <div class="proj p1">
+                    <a href="https://devlopshree.github.io/image-video-converter/">
+                        
+                        <div class="project-img" title="Live">
+                            <img src="media/encryption.webp" alt="encryptor" />
+                        </div>
+                        <div class="project-info">
+                            <p>Message Encrytion-Decryption</p>
+                        </div>
+
+                    </a>    
                 </div>
 
-                <div></div>
             </div>
         </div>
     </section>
@@ -137,12 +136,15 @@
     <footer class="footer">
         <div class="contact-info">
             <p>Contact No: +919815683071</p>
-            <p>Email: mr.kant.sk@gamil.com</p>
+            <p>Email: mr.kant.sk@gmail.com</p>
         </div>
         <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="email@example.com" required>
-            <textarea placeholder="Your Message" required></textarea>
+            <input type="text" placeholder="Your Name" required id="name" name="name"/>
+
+            <input type="email" placeholder="email@example.com" required id="email" name="email"/>
+
+            <textarea placeholder="Your Message" required id="comment" name="comment"></textarea>
+
             <button type="submit">Send Message</button>
         </form>
     </footer>
